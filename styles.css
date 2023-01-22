@@ -32,25 +32,47 @@ h1, h2, h3, h4, p {
     font-size: 19px;
 }
 
-#antti-img {
-    width: 100px;
+#activities-title {
+    font-size: 24px;
+    background: #F1FAEE;
+    margin: 0;
+    padding: 39px 0 0 0;
 }
 
 .activities {
     background: #F1FAEE;
     display: flex;
-    padding: 54px 34px 0 34px;
+    flex-direction: row;
+    padding: 54px;
+    justify-content: space-between;
+    align-items: stretch;
+    color: #1D3557;
+    height: 378px;
 }
 
-#activities-title {
-    font-size: 24px;
+.activities-img {
+    width: 100px;
+    border-radius: 50%;
+    height: 100px;
+    border: 2px solid #1D3557;
+}
+
+.guide-box {
     display: flex;
-    background: #F1FAEE;
-    margin: 0 0 0 0;
-    padding: 39px 0 0 0;
-    justify-content: center;
+    border-bottom: 5px solid #1D3557;
+    margin: 50px 150px;
+    width: 400px;
+    height: 294px;
+    background: #A8DADC;
+    border-radius: 10px;
+    padding: 10px;
+    color: #1D3557;
 }
 
-.activities-boxes {
-    font-size: 16px;
+#antti-img {
+    width: 100px;
+    padding: 10px;
+    width: 180px;
+    height: 248px;
+    border-radius: 10%;
 }
