@@ -60,7 +60,7 @@ h1, h2, h3, h4, p {
 .guide-box {
     display: flex;
     border-bottom: 5px solid #1D3557;
-    margin: 50px 150px;
+    margin: 50px auto;
     width: 400px;
     height: 294px;
     background: #A8DADC;
